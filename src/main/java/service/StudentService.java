@@ -16,11 +16,11 @@ public class StudentService {
     public void addStudent(){
         Student student = new Student();
         List<Student> studentList = new ArrayList<Student>();
-        student.setStudentId("001");
-        student.setName("name");
-        student.setCourse("MCA");
+        student.setStudentId("050");
+        student.setName("Sri");
+        student.setCourse("Bsc.IT");
         student.setStartDate("01/08/2023");
-        student.setEndDate("08/01/2026");
+        student.setEndDate("08/01/2025");
         studentList.add(student);
 
 
